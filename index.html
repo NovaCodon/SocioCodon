@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SocioCodon</title>
+</head>
+<body style="font-family: 'Courier New';">
+
+  <!-- Top Right Login Link -->
+  <div style="text-align: right; padding: 10px;">
+    <a href="login.html">Login</a>
+  </div>
+
+  <center>
+    <h1>SocioCodon</h1>
+  </center>
+
+  <p style="text-align: center;">
+    Welcome to <strong>SocioCodon</strong> — your source for updates, news, and insights on our apps and software projects, including lots of discussions.<br>
+    This is the starting phase of our journey — more features and posts will come soon.
+  </p>
+
+  <hr style="width: 60%;">
+
+  <div style="text-align: center;">
+    <h2>All Posts</h2>
+    <div id="posts">Loading posts...</div>
+  </div>
+
+  <hr style="width: 60%;">
+
+  <p style="text-align: center; font-size: 14px;">
+    &copy; 2025 Niral Bhatt. All rights reserved.
+  </p>
+
+  <script>
+    // Load posts.txt content
+    fetch('posts.txt')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('posts').innerHTML = data;
+      })
+      .catch(error => {
+        document.getElementById('posts').innerHTML = "Unable to load posts.";
+        console.error("Error loading posts:", error);
+      });
+  </script>
+
+</body>
+</html>
