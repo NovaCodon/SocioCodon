@@ -32,8 +32,8 @@
   <hr style="width: 80%;">
 
   <p style="text-align: center; font-size: 14px;">
-    &copy; 2025 Niral Bhatt. All rights reserved.
-  </p>
+  &copy; 2025-<span id="currentYear"></span> Niral Bhatt. All rights reserved.
+</p>
 
   <script>
     // Load posts.txt content
@@ -46,7 +46,10 @@
         document.getElementById('posts').innerHTML = "Unable to load posts.";
         console.error("Error loading posts:", error);
       });
+    // Get current year
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
   </script>
 
 </body>
 </html>
+
