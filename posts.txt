@@ -1,3 +1,6 @@
+<a href="new-posts/post16/post16.html">Windows Thin PC overview</a><br> <hr style="width: 50%; background-color: #000000;height: 1px; border: none;">
+<a href="new-posts/post15/post15.html">The crown completes 180 years
+</a><br> <hr style="width: 50%; background-color: #000000;height: 1px; border: none;">
 <a href="new-posts/post14/post14.html">LORD Trick to Remember Oxygenated & Deoxygenated Blood: Class 10</a><br> <hr style="width: 50%; background-color: #000000;height: 1px; border: none;">
 <a href="new-posts/post13/post13.html">OpenCV Python Installation Demo for Class X, XI, XII and above</a><br> <hr style="width: 50%; background-color: #000000;height: 1px; border: none;">
 <a href="new-posts/post12/post12.html">Easy Hand Trick to Remember Trigonometric Ratios</a><br> <hr style="width: 50%; background-color: #000000;height: 1px; border: none;">
